@@ -22,7 +22,7 @@ export function FeedbackContentStep({feedbackType,onRestart}: FeedbackContentSte
       </header>
       <form className="my-4 w-full">
         <textarea 
-          className="min-w-[304px] min-h-[112px] w-full text-sm placeholder-zinc-400 text-zinc-100 border-zinc-600 bg-transparent rounded-md border-2 focus:border-brand-500 focus:outline-none focus:ring-brand-500 focus:ring-1 resize-none "
+          className="min-w-[304px] min-h-[112px] w-full text-sm placeholder-zinc-400 text-zinc-100 border-zinc-600 bg-transparent rounded-md focus:border-brand-500 focus:outline-none focus:ring-brand-500 focus:ring-1 resize-none scrollbar scrollbar-thumb-zinc-700 scrollbar-track-transparent-transparent scrollbar-thin"
           placeholder="Conte com detalhe o que está acontecendo..."
         />
       </form>
