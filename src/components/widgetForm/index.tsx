@@ -6,8 +6,6 @@ import bugImageUrl from '../../assets/bug.svg';
 import ideaImageUrl from '../../assets/idea.svg';
 import thoughtImageUrl from '../../assets/thought.svg';
 
-
-
 export const feedbackTypes = {
   BUG:{
     title:'Problema',
