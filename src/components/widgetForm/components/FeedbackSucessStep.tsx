@@ -1,5 +1,8 @@
 import { CloseButton } from "../../CloseButton";
 import img from '../../../assets/sucess.svg';
+import Lottie from "lottie-react";
+import animation from '../../../lotties/success.json';
+
 
 interface FeedbackSucessStepProps {
   onRestart : () => void;
@@ -11,7 +14,12 @@ export function FeedbackSucessStep( {onRestart}:FeedbackSucessStepProps){
         <CloseButton/>
       </header>
       <div className="flex flex-col items-center py-10 w-[304px]">
-        <img style={{width:'100px', height: '100px'}} src={img} alt="sucess icon" />
+        <Lottie 
+          style={{width:100,height:100}} 
+          animationData={animation}
+          loop={false}
+          initialSegment={[0,45]}
+       />
         <span className="text-xl mt-5">Agradecemos o Feedback</span>
         <button
          onClick={onRestart}
