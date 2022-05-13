@@ -1,5 +1,4 @@
 import { CloseButton } from "../../CloseButton";
-import img from '../../../assets/sucess.svg';
 import Lottie from "lottie-react";
 import animation from '../../../lotties/success.json';
 
